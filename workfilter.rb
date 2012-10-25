@@ -10,7 +10,7 @@ elsif mode == "off"
   File.open("/etc/hosts", 'r') do |hosts|
     hosts.each do |line| 
       delete_line = false
-      sites_list.each {|site| delete_line = true if line[site]}
+      sites_list.each {|site| delete_line = true if line["127.0.0.1	" + site]}
       lines_to_keep << line unless delete_line
       sites_list.rewind
     end
