@@ -1,6 +1,8 @@
 Work Filter is a small ruby script to add the contents of sites_list.txt to /etc/hosts point at localhost so they can't be accessed during productive time, and then remove them when not being productive.
 
 Usage:
+To use Work Filter, navigate to the project directory in terminal.
+
 To turn the filter on, enter 'sudo ruby workfilter.rb' or 'sudo ruby workfilter.rb on', and then enter your password into the prompt.
 
 To turn the filter off, enter 'sudo ruby workfilter.rb off', and then enter your password into the prompt.
