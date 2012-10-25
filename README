@@ -7,4 +7,6 @@ To turn the filter on, enter 'sudo ruby workfilter.rb' or 'sudo ruby workfilter.
 
 To turn the filter off, enter 'sudo ruby workfilter.rb off', and then enter your password into the prompt.
 
+Then restart your browser so the changes take effect.
+
 If you want to change the list of web sites blocked, edit the contents of sites_list.txt
